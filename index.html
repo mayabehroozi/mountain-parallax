@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            width: 100%;
+            height: 140vh;
+            background-image: url(assets/img/bg.jpg);
+
+            /* position: fixed; */
+            >p{
+                font-size: 120px;
+                position: fixed;
+                text-transform: uppercase;
+                color: rgba(98, 153, 235, 0.726);
+                font-weight: bolder;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            >img {
+                position: fixed;
+
+                &:nth-of-type(5){
+                    bottom: 1000px;
+                    animation: cloud linear forwards .2s;
+                    animation-timeline: scroll();
+                }
+
+                &:nth-of-type(4) {
+                    bottom: 1000px;
+                    animation: cloud linear forwards .2s;
+                    animation-timeline: scroll();
+                }
+
+                &:nth-of-type(2) {
+                    left:0;
+                    animation: leftm linear forwards .2s;
+                    animation-timeline: scroll();
+                }
+
+                &:nth-of-type(3) {
+                    right: 0;
+                    animation: rightm linear forwards;
+                    animation-timeline: scroll();
+                }
+
+                &:nth-of-type(1) {
+                    left: -240px;
+                    bottom: -40px;
+                    animation: man linear forwards;
+                    animation-timeline: scroll();
+                    
+                }
+
+            }
+        }
+
+        @keyframes cloud{
+            to{
+                bottom: -350px;
+            }
+        }
+        @keyframes leftm{
+            to{
+                left: -400px;
+            }
+        }
+        @keyframes rightm{
+            to{
+                right: -400px;
+            }
+        }
+        @keyframes man{
+
+            to{
+                left: -240px;
+                bottom: -300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+       <p>maya behroozi</p>
+        <img src="assets/img/man.png" alt="">
+        <img src="assets/img/mountain_left.png" alt="">
+        <img src="assets/img/mountain_right.png" alt="">
+        <img src="assets/img/clouds_1.png" alt="">
+        <img src="assets/img/clouds_2.png" alt="">
+        
+
+    </main>
+
+</body>
+
+</html>
