@@ -1,8 +1,7 @@
 # mountain-parallax
 pure CSS animation
 cool parallax with pure CSS and HTML
-![viewfinal](https://user-images.githubusercontent.com/109727844/204102879-086fee63-9bda-43b2
-a1aa-49879c3f2d39.jpg) 
+![Image](https://github.com/user-attachments/assets/8dbb84fc-bf29-4641-97f7-2e0131ee8f51)
 ![view final](https://user-images.githubusercontent.com/109727844/204102930-fac80657-4d16-4816
 b476-a88e984abefe.jpg)
 ) - [Demo Project]( https://mayabehroozi.github.io/mountain-parallax/) - 
